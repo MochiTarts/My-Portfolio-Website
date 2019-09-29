@@ -1,0 +1,313 @@
+html, body {	
+	background: #fff;
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	margin: 0px;
+}
+
+.header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: center;
+	background-image: url(../images/header.jpg);
+	background-position: 50% 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	animation: back 25s infinite;
+	text-align: left;
+}
+
+.me {
+	color: #fff;
+	text-align: center;
+	padding: 5vw;
+	word-wrap: break word;
+}
+
+.anchor {
+	display: block;
+	height: 8vh; /*same height as header*/
+	margin-top: -8vh; /*same height as header*/
+	visibility: hidden;
+}
+
+/*@keyframes back {
+	0% {
+		background-image: url(../images/head.jpg);	
+	}
+	20% {
+		background-image: url(../images/resumeback.jpg);	
+	}
+	40% {
+		background-image: url(../images/interests1.jpg);	
+	}
+	60% {
+		background-image: url(../images/futureback.jpg);
+	}
+	80% {
+		background-image: url(../images/compsci.jpg);	
+	}
+	100% {
+			background-image: url(../images/head.jpg);
+	}
+}*/
+
+#name {
+	font-weight:100;font-size:10vh;line-height:10vh;
+}
+
+#grabber {
+	font-weight:200;font-size:3vh;line-height:5vh;
+}
+
+nav {
+	position: fixed;	
+	top: 0;
+	width: 100%;
+	border-bottom: solid #4CC790;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style-image: none;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+	float: left;
+	width: 15vw;
+	font-size: 2vw;
+	font-weight: 100;
+	color: #000;
+}
+
+nav li a:link, nav li a:visited{
+	display: block;
+	color: #000;
+    text-align: center;
+    text-decoration: none;	
+	padding: 5% 0%;
+}
+
+nav li a:hover {
+	background-color: #eee;	
+}
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100vw;
+	color: #000;
+	padding-bottom: 5%;
+}
+
+.title {
+	text-align: center;
+	font-size: 10vh;
+	width: 100%;
+}
+
+.intropara {
+	width: 700px;
+	font-size: 3vh;
+	line-height: 5vh;
+}
+
+.para {
+	padding: 2vw;
+}
+
+.photoframe {
+	width: 30vw;
+	align-self: center;
+	position: relative;
+}
+
+.photo {
+	display: block;
+	width: 85%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15%;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: center;
+	padding: 2vw;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 10%;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.single-chart {
+	flex-basis: 350px;
+}
+
+.skills {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #aaa;
+}
+
+.circular-chart {
+	display: block;
+	margin: 25px auto;
+	width: 15vw;
+}
+
+.circle-bg {
+	fill: none;
+	stroke: #eee;
+	stroke-width: 3.8;
+}
+
+.circle {
+	fill: none;
+	stroke-width: 2.8;
+	stroke-linecap: round;
+	animation: progress 3s ease-out forwards;
+}
+
+@keyframes progress {
+	0% {
+	stroke-dasharray: 0 100;
+	}
+}
+
+.circular-chart.orange .circle {
+	stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+	stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+	stroke: #3c9ee5;
+}
+
+.percentage {
+	fill: #666;
+	font-family: sans-serif;
+	font-size: 0.5em;
+	text-anchor: middle;
+}
+
+.works {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-around;
+	background-color: #ccc;
+	padding-bottom: 5%;
+}
+
+.workspara {
+	width: 50vw;
+	font-size: 3vh;
+	line-height: 5vh;
+	margin-bottom: 10%;
+	padding: 4vw;
+}
+
+.workstitle {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.worksimage {
+	width: 25vw;
+	height: 25vw;
+	object-fit: cover;
+	padding: 4vw;
+	border-radius: 15%;
+	overflow: hidden;
+}
+
+.experience {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-around;
+	background-color: #fff;
+	padding-bottom: 5%;
+}
+
+.exppara {
+	width: 50vw;
+	font-size: 3vh;
+	line-height: 5vh;
+	margin-bottom: 10%;
+	padding: 4vw;
+}
+
+.exptitle {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.expimage {
+	border-radius: 10px;
+	padding: 2vw;
+}
+
+.contact {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-around;
+	background-color: #ccc;
+	padding-bottom: 5%;
+}
+
+#closinggrabber {
+	text-align: center;
+	font-size: 10vh;
+	font-weight: 100;
+	padding: 5vw 2vw 0vw 2vw;
+}
+
+#closingquote {
+	text-align: center;
+	font-size: 5vh;
+	font-weight: bold;
+	padding: 0vw 2vw 0vw 2vw;
+}
+
+#contactquote {
+	font-size: 3vh;
+	text-align: center;
+	padding: 0vw 2vw 0vw 2vw;
+	object-fit: cover;
+	padding: 2vw;
+	width: 100%;
+}
+
+.contactphoto {
+	max-width: 150px;
+	height: 150px;
+	object-fit: cover;
+	padding: 2vw;
+}
+
+.contactphoto:hover {
+	cursor: pointer;
+}
+
+.contactphoto:hover {
+	cursor: pointer;
+}
