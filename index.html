@@ -5,14 +5,14 @@
 	<meta charset="utf-8"/>
 	<meta lang="en"/>
     <title>Introduction</title>
-    
+
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
   	<script>
-	
+
 	//From https://codepen.io/bfintal/pen/Ejvgrp
 	//Checks if element is still in viewport
 	/*const gambitGalleryIsInView = el => {
@@ -29,26 +29,26 @@
 			bottom: boundsTop + el.clientHeight,
 		}
 		alert("It's here");
-		return ( bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom ) 
+		return ( bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom )
 			|| ( bounds.top <= viewport.bottom && bounds.top >= viewport.top );
 	}*/
-	
+
 	function linkedin() {
 		window.open("https://www.linkedin.com/in/jenny-yu-a98000127/");
 	}
-	
+
 	function profile1() {
 		window.open("https://www.facebook.com/jenny.yu.503092");
 	}
-	
+
 	function gmail() {
 		window.location.replace("mailto:jenny100.yu@gmail.com");
 	}
-	
+
 	function contact() {
 		document.getElementById("abc").style.display = "block";
 	}
-	
+
 	function openNav() {
 		document.getElementById("mySidenav").style.width = "100%";
 		if (window.matchMedia("(max-width: 660px)")) {
@@ -63,7 +63,7 @@
 	function closeNav() {
 		document.getElementById("mySidenav").style.width = "0";
 	}
-	
+
 	/*function myFunction(x) {
 		if (x.matches) { // If media query matches
 			alert("This is true");
@@ -76,57 +76,57 @@
 	var x = window.matchMedia("(max-width: 660px)")
 	myFunction(x) // Call listener function at run time
 	x.addListener(myFunction) // Attach listener function on state changes */
-	
+
 	</script>
-    
+
     <style>
-	
+
 	a:link, a:visited{
-		text-decoration: none;	
+		text-decoration: none;
 		color: #00E;
 	}
-	
+
 	a:hover {
-		font-weight: bold;	
+		font-weight: bold;
 	}
-	
+
 	#gmail {
 		float: right;
 		margin-right: 23%;
 		margin-top: 3%;
 		padding-left: 3%;
 	}
-	
+
 	#gmail:hover {
 		cursor: pointer;
 	}
-	
+
 	#youtube {
 		float: right;
 		padding-left: 3%;
 	}
-	
+
 	#youtube:hover {
 		cursor: pointer;
 	}
-	
+
 	#facebook {
 		float: right;
 		margin-top: 1%;
 	}
-	
+
 	#facebook {
 		cursor: pointer;
 	}
-	
+
 	#aboutlink a{
 		position: absolute;
 		left: 0px;
 		top: -60px;
 	}
-	
+
 	</style>
-  
+
 </head>
 
 <body>
@@ -165,18 +165,18 @@
 <div class="about">
 
 	<p class="title" data-aos="fade-up" data-aos-duration="1500">About</p>
-	
+
 	<div class="intropara" data-aos="fade-up" data-aos-duration="1500">
-	<p data-aos="fade-up" data-aos-duration="1500" class="para">I'm a student currently studying computer science at the University of Toronto, Scarborough campus. My stream is software engineering. I have a strong passion for design, especially when it comes to UX/UI design and app functions. Creating a dynamic experience for users is what I always keep in mind when building.<br><br>Both that and my love for creativity are what motivates to open my laptop and just code. For me, coding is a combination of artistic and logical thinking. Two skills I have polished under my belt.<br><br>Other than coding, I'm a music-lover, book-reader, and film-thinker. I compose music in my spare time as well as teach piano once a week. Once I learn Machine Learning and AI, I plan to create a new learning system where people of all ages can learn piano and other instruments. Instead of teachers, they learn from AI who are modelled after renowned music experts, teachers, and performers.</p>
+	<p data-aos="fade-up" data-aos-duration="1500" class="para">I'm a student currently studying computer science at the University of Toronto, Scarborough campus. My stream is software engineering. I have a strong passion for technology, design, and overall programming in general. Creating an interesting experience for users is what I always keep in mind when building.<br><br>Both that and my love for creativity are what motivates to open my laptop and just code. For me, coding is a combination of artistic, logical, and critical thinking. Skills that I have polished under my belt but will continue to develop as my career in software development grows.<br><br>I just love to create and problem-solve. And in this never-ending industry of tech and innovation, I hope to one day make an impact too. I will work towards it one step at a time, first by finishing my studies, then by gaining real-world experience.<br><br>Other than programming, I'm a music-lover, book-reader, and film-analyser. When I'm not at my coding, I'm dreaming.</p>
 	</div>
-	
+
 	<div class="photo" data-aos="fade-up" data-aos-duration="1500">
 	<img src="images/portraitme.jpg" data-aos="fade-up" data-aos-duration="1500"/>
 	</div>
-	
+
 	<div class="flex-wrapper">
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">HTML5</p>
+			<p class="skills">Fullstack</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -184,17 +184,17 @@
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
 			  <path class="circle"
-				stroke-dasharray="93, 100"
+				stroke-dasharray="89, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">93%</text>
+			  <text x="18" y="20.35" class="percentage">89%</text>
 			</svg>
 		</div>
 
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">CSS3</p>
+			<p class="skills">Frontend</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -202,17 +202,17 @@
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
 			  <path class="circle"
-				stroke-dasharray="85, 100"
+				stroke-dasharray="95, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">85%</text>
+			  <text x="18" y="20.35" class="percentage">95%</text>
 			</svg>
 		</div>
 
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">JavaScript</p>
+			<p class="skills">Backend</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -220,15 +220,15 @@
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
 			  <path class="circle"
-				stroke-dasharray="90, 100"
+				stroke-dasharray="86, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">90%</text>
+			  <text x="18" y="20.35" class="percentage">86%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
 			<p class="skills">Python</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
@@ -246,9 +246,63 @@
 			  <text x="18" y="20.35" class="percentage">96%</text>
 			</svg>
 		</div>
-		
+
+		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
+			<p class="skills">Java</p>
+			<svg viewBox="0 0 36 36" class="circular-chart orange">
+			  <path class="circle-bg"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <path class="circle"
+				stroke-dasharray="85, 100"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <text x="18" y="20.35" class="percentage">85%</text>
+			</svg>
+		</div>
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
 			<p class="skills">C</p>
+			<svg viewBox="0 0 36 36" class="circular-chart orange">
+			  <path class="circle-bg"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <path class="circle"
+				stroke-dasharray="88, 100"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <text x="18" y="20.35" class="percentage">88%</text>
+			</svg>
+		</div>
+
+		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
+			<p class="skills">C#</p>
+			<svg viewBox="0 0 36 36" class="circular-chart orange">
+			  <path class="circle-bg"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <path class="circle"
+				stroke-dasharray="85, 100"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <text x="18" y="20.35" class="percentage">85%</text>
+			</svg>
+		</div>
+
+		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
+			<p class="skills">Shell</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -264,9 +318,9 @@
 			  <text x="18" y="20.35" class="percentage">75%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Java</p>
+			<p class="skills">JavaScript</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -274,17 +328,17 @@
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
 			  <path class="circle"
-				stroke-dasharray="60, 100"
+				stroke-dasharray="80, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">60%</text>
+			  <text x="18" y="20.35" class="percentage">80%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Procedural<br>Programming</p>
+			<p class="skills">REST APIs</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -292,35 +346,17 @@
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
 			  <path class="circle"
-				stroke-dasharray="91, 100"
+				stroke-dasharray="90, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">91%</text>
+			  <text x="18" y="20.35" class="percentage">90%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Object oriented<br>Programming</p>
-			<svg viewBox="0 0 36 36" class="circular-chart orange">
-			  <path class="circle-bg"
-				d="M18 2.0845
-				  a 15.9155 15.9155 0 0 1 0 31.831
-				  a 15.9155 15.9155 0 0 1 0 -31.831"
-			  />
-			  <path class="circle"
-				stroke-dasharray="50, 100"
-				d="M18 2.0845
-				  a 15.9155 15.9155 0 0 1 0 31.831
-				  a 15.9155 15.9155 0 0 1 0 -31.831"
-			  />
-			  <text x="18" y="20.35" class="percentage">50%</text>
-			</svg>
-		</div>
-		
-		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Web APIs</p>
+			<p class="skills">Git</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -336,27 +372,9 @@
 			  <text x="18" y="20.35" class="percentage">87%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Unity<br><br><br></p>
-			<svg viewBox="0 0 36 36" class="circular-chart orange">
-			  <path class="circle-bg"
-				d="M18 2.0845
-				  a 15.9155 15.9155 0 0 1 0 31.831
-				  a 15.9155 15.9155 0 0 1 0 -31.831"
-			  />
-			  <path class="circle"
-				stroke-dasharray="70, 100"
-				d="M18 2.0845
-				  a 15.9155 15.9155 0 0 1 0 31.831
-				  a 15.9155 15.9155 0 0 1 0 -31.831"
-			  />
-			  <text x="18" y="20.35" class="percentage">70%</text>
-			</svg>
-		</div>
-		
-		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Android Studio<br><br><br></p>
+			<p class="skills">Jira</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -372,9 +390,9 @@
 			  <text x="18" y="20.35" class="percentage">75%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Google Cloud<br><br><br></p>
+			<p class="skills">Automation<br>Testing<br><br><br></p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -382,53 +400,35 @@
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
 			  <path class="circle"
-				stroke-dasharray="55, 100"
+				stroke-dasharray="85, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">55%</text>
+			  <text x="18" y="20.35" class="percentage">85%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">CMD<br>interface<br><br><br></p>
+			<p class="skills">NOSQL</p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <path class="circle" data-aos="fade-up"
-				stroke-dasharray="70, 100"
+			  <path class="circle"
+				stroke-dasharray="60, 100"
 				d="M18 2.0845
 				  a 15.9155 15.9155 0 0 1 0 31.831
 				  a 15.9155 15.9155 0 0 1 0 -31.831"
 			  />
-			  <text x="18" y="20.35" class="percentage">70%</text>
+			  <text x="18" y="20.35" class="percentage">60%</text>
 			</svg>
 		</div>
-		
+
 		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Notepad++<br><br><br></p>
-			<svg viewBox="0 0 36 36" class="circular-chart orange">
-			  <path class="circle-bg"
-				d="M18 2.0845
-				  a 15.9155 15.9155 0 0 1 0 31.831
-				  a 15.9155 15.9155 0 0 1 0 -31.831"
-			  />
-			  <path class="circle" data-aos="fade-up"
-				stroke-dasharray="88, 100"
-				d="M18 2.0845
-				  a 15.9155 15.9155 0 0 1 0 31.831
-				  a 15.9155 15.9155 0 0 1 0 -31.831"
-			  />
-			  <text x="18" y="20.35" class="percentage">88%</text>
-			</svg>
-		</div>
-		
-		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
-			<p class="skills">Dreamweaver<br><br><br></p>
+			<p class="skills">Linux<br>Environment<br><br><br></p>
 			<svg viewBox="0 0 36 36" class="circular-chart orange">
 			  <path class="circle-bg"
 				d="M18 2.0845
@@ -444,17 +444,93 @@
 			  <text x="18" y="20.35" class="percentage">80%</text>
 			</svg>
 		</div>
-		
+
+		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
+			<p class="skills">Android<br>Studio<br><br><br></p>
+			<svg viewBox="0 0 36 36" class="circular-chart orange">
+			  <path class="circle-bg"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <path class="circle" data-aos="fade-up"
+				stroke-dasharray="88, 100"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <text x="18" y="20.35" class="percentage">88%</text>
+			</svg>
+		</div>
+
+		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
+			<p class="skills">Visual<br>Studio<br><br><br></p>
+			<svg viewBox="0 0 36 36" class="circular-chart orange">
+			  <path class="circle-bg"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <path class="circle" data-aos="fade-up"
+				stroke-dasharray="80, 100"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <text x="18" y="20.35" class="percentage">80%</text>
+			</svg>
+		</div>
+
+		<div class="single-chart" data-aos="fade-up" data-aos-duration="1500">
+			<p class="skills">AGILE<br>Development<br><br><br></p>
+			<svg viewBox="0 0 36 36" class="circular-chart orange">
+			  <path class="circle-bg"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <path class="circle" data-aos="fade-up"
+				stroke-dasharray="83, 100"
+				d="M18 2.0845
+				  a 15.9155 15.9155 0 0 1 0 31.831
+				  a 15.9155 15.9155 0 0 1 0 -31.831"
+			  />
+			  <text x="18" y="20.35" class="percentage">83%</text>
+			</svg>
+		</div>
+
 	</div>
-	
+
 </div>
 
 <span class="anchor" id="workslink"></span>
 <div class="works">
 
 	<p class="title" data-aos="fade-up" data-aos-duration="1500" style="padding-top:5%;">My Works</p>
-	
-	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500">
+
+	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500" >
+	<img src="images/androidshoppingapp_copy.png" alt="Photo of Jenny Yu"/>
+	</div>
+	<div class="workspara" data-aos="fade-up" data-aos-duration="1500">
+	<div class="worksinner">
+	<p class="workstitle">Android Shopping App</p>
+	<p style="color:#4CC790;font-weight:bold;">November 2019 - December 2019</p>
+	<p>At the end of my second-year fall semester at UTSC, one of my courses had us develop an Android app for our culminating project. This was the biggest project of my university years so far and was also the first time I ever worked in a scrum team. Using Android Studio and all the Java skills and design patterns taught in class, my team and I managed to create a working shop app that allowed customers to buy items, employees to restock items, and admins to view activity history. Those are just some of the many features we implemented in this app. Overall, this was a gruelling but fruitful experience and I'm sure the skills learned from this would be applied soon down my career.</p>
+	</div>
+	</div>
+
+	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500" >
+	<img src="images/mood.jpg" alt="Photo of Jenny Yu"/>
+	</div>
+	<div class="workspara" data-aos="fade-up" data-aos-duration="1500">
+	<div class="worksinner">
+	<p class="workstitle"><a href=https://devpost.com/software/mood-o67ce1 target="_blank">Mood</a></p>
+	<p style="color:#4CC790;font-weight:bold;">November 2019</p>
+	<p>I attended the Hack Western 6 hackathon in winter 2019. There, I and a team of four people (myself included), worked on a web app that was able to detect one's current mood, and would generate an endless list of movies and gifs, and select one song, that would help this person with how they're feeling. We made this using various APIs for getting the desired movies, gifs, and songs. Javascript and nodejs for backend purposes. Bootstrap, HTML, and CSS for making the frontend. And we built a custom API that allows us to communicate between backend and frontend. This was by far, the biggest project I've worked on at a hackathon. It proves to me that with a clear end goal and strong dedication, things can be done in a limited amount of time.</p>
+	</div>
+	</div>
+
+	<!--<div class="worksimage" data-aos="fade-up" data-aos-duration="1500">
 	<img src="images/unity.png" alt="Photo of Jenny Yu"/>
 	</div>
 	<div class="workspara" data-aos="fade-up" data-aos-duration="1500">
@@ -463,8 +539,8 @@
 	<p style="color:#4CC790;font-weight:bold;">September 2019</p>
 	<p>This is my latest project and it's still under development. It's the second game I'm making using the Unity 5 engine and the first mobile game I'm attempting. The game is a 2D platform jumper game. Players can control the moose by tilting their mobile device to adjust the direction he's jumping in. The moose is automatically jumping up to reach a safe haven away from pursuing poachers. Users win by reaching the top and then can select the next level. (Once most of the design is finished, the picture will updated)</p>
 	</div>
-	</div>
-	
+</div>-->
+
 	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500" >
 	<img src="images/Portfolio_website.png" alt="Photo of Jenny Yu"/>
 	</div>
@@ -472,11 +548,11 @@
 	<div class="worksinner">
 	<p class="workstitle">Current Portfolio Website</p>
 	<p style="color:#4CC790;font-weight:bold;">September 2019</p>
-	<p>In the first semester of my second-year at UofT, I decided to update my portfolio website. The last time I ever touched it was in my senior year of high school. Now that I'm a university student studying computer science, I decided to make my website reflect that fact. This was made using pure HTML, CSS, and JavaScript, with the AOS CSS library for animations. It took me approximately 2 days to get the PC layout done. I'm currently working on making the layout for mobile devices.</p>
+	<p>In the first semester of my second-year at UTSC, I decided to update my portfolio website. The last time I ever touched it was in my senior year of high school. Now that I'm a university student studying computer science, I decided to make my website reflect that fact. This was made using pure HTML, CSS, and JavaScript, with the AOS CSS library for animations. It took me approximately 2 days to get the PC layout done. I'm currently working on making the layout for mobile devices.</p>
 	</div>
 	</div>
-	
-	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500" >
+
+	<!--<div class="worksimage" data-aos="fade-up" data-aos-duration="1500" >
 	<img src="images/ParkProof.jpg" alt="Photo of Jenny Yu"/>
 	</div>
 	<div class="workspara" data-aos="fade-up" data-aos-duration="1500">
@@ -485,8 +561,8 @@
 	<p style="color:#4CC790;font-weight:bold;">January 2019</p>
 	<p>At UofTHacks 6, my team and I built an Android app called ParkProof. It's purpose is to find all available parking spots based on the user's current location. Users can then choose which spot to pick and a GPS will guide them directly there. We built this app using Android Studio and managed to get it to display a map with the user's current location, along with all parking spots in its vicinity. I was the one who linked the maps functions to the UI components so that the app would display Google maps upon entering the app.</p>
 	</div>
-	</div>
-	
+</div>-->
+
 	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500" >
 	<img src="images/old_website.png" alt="Photo of Jenny Yu"/>
 	</div>
@@ -497,7 +573,7 @@
 	<p>Back in my senior year of high school, I learned how to use CSS grids and this portfolio website was made with them. I also implemented my newly learned knowledge of media queries to make this website more flexible with different sized viewports. Considering that I only started learning HTML, CSS, and JavaScript less than a year ago, I think I did a good job creating this website. It served as my portfolio for 2 years until this new website was built. But no matter how far I will go down this path of software development, I will always cherish early starting projects like this one.</p>
 	</div>
 	</div>
-	
+
 	<div class="worksimage" data-aos="fade-up" data-aos-duration="1500">
 	<img src="images/game.JPG" alt="Photo of Jenny Yu"/>
 	</div>
@@ -508,24 +584,36 @@
 	<p>Another early project was Heir to the Throne, the first game I created using JavaScript, HTML, and CSS. I remember starting as early as I could the moment my high school computer science teacher announced this assignment. I was a huge video game nerd and always dreamed of one day developing my own game or working for a large game company.<br><br>This game is a point-and-click adventure game where the player can explore many locations on a map by clicking on its image. The purpose of this game is to find out the traitor among the King's children and arrest them before they either kill the player or the true heir to the throne. In certain areas, there are clues that pertain to the traitor's or the heir's identity and the player can cross-reference those clues to each of the King's children's profiles. The player wins if they arrest the traitor and loses if they arrest the true heir or gets killed by the traitor</p>
 	</div>
 	</div>
-	
+
 </div>
 
 <span class="anchor" id="experiencelink"></span>
 <div class="experience">
 
 	<p class="title" data-aos="fade-up" data-aos-duration="1500" style="padding-top:5%;">Jobs I Worked</p>
-	
+
 	<div class="exppara" data-aos="fade-up" data-aos-duration="1500">
 	<div class="para">
-	<p class="exptitle">Forvera</p>
-	<p style="color:#4CC790;font-weight:bold;">September 2019</p>
+	<p class="exptitle">RBC</p>
+	<p style="color:#4CC790;font-weight:bold;">January 2020 - April 2020</p>
 	<p>Details coming soon</p>
 	</div>
 	</div>
-	
+
 	<div class="expimage">
-	<img data-aos="fade-up" data-aos-duration="1500"/>
+	<img data-aos="fade-up" data-aos-duration="1500" src="images/rbc.png"/>
+	</div>
+
+	<div class="exppara" data-aos="fade-up" data-aos-duration="1500">
+	<div class="para">
+	<p class="exptitle">Forvera</p>
+	<p style="color:#4CC790;font-weight:bold;">October 2019 - January 2020</p>
+	<p>Details coming soon</p>
+	</div>
+	</div>
+
+	<div class="expimage">
+	<img data-aos="fade-up" data-aos-duration="1500" src="images/forveraheader.png"/>
 	</div>
 
 </div>
@@ -536,20 +624,20 @@
 	<p id="closinggrabber" data-aos="fade-up" data-aos-duration="1500">I'm passionate, perseverant, and<br>stubborn to a fault</p>
 	<p id="closingquote" data-aos="fade-up" data-aos-duration="1500">If I said I'll get something done, I mean it. Though I might need<br>someone to remind me it's already an hour past dinner.</p>
 	<p id="contactquote" data-aos="fade-up" data-aos-duration="1500" width=350px>I'm always eager to meet new people. So let's get in touch.</p>
-	
+
 	<div class="contactphoto">
 	<img data-aos="fade-up" data-aos-duration="1500" onClick="linkedin()"src="images/linkedin.png"/>
 	<img data-aos="fade-up" data-aos-duration="1500" onClick="profile1()" src="images/facebook.png"/>
 	<img data-aos="fade-up" data-aos-duration="1500" onClick="gmail()" src="images/gmail.png"/>
 	</div>
-	
+
 </div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 <script>
     AOS.init();
-	
+
 	AOS.init({
 		// Global settings:
 		disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

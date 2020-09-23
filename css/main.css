@@ -1,4 +1,4 @@
-html, body {	
+html, body {
 	background: #fff;
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
@@ -41,19 +41,19 @@ html, body {
 
 /*@keyframes back {
 	0% {
-		background-image: url(../images/head.jpg);	
+		background-image: url(../images/head.jpg);
 	}
 	20% {
-		background-image: url(../images/resumeback.jpg);	
+		background-image: url(../images/resumeback.jpg);
 	}
 	40% {
-		background-image: url(../images/interests1.jpg);	
+		background-image: url(../images/interests1.jpg);
 	}
 	60% {
 		background-image: url(../images/futureback.jpg);
 	}
 	80% {
-		background-image: url(../images/compsci.jpg);	
+		background-image: url(../images/compsci.jpg);
 	}
 	100% {
 			background-image: url(../images/head.jpg);
@@ -69,7 +69,7 @@ html, body {
 }
 
 nav {
-	position: fixed;	
+	position: fixed;
 	top: 0;
 	width: 100%;
 	border-bottom: solid #4CC790;
@@ -101,7 +101,7 @@ nav li a:link, nav li a:visited{
 }
 
 nav li a:hover {
-	background-color: #eee;	
+	background-color: #eee;
 }
 
 .closebtn {
@@ -247,6 +247,18 @@ nav li a:hover {
 	margin:0;
 }
 
+.workstitle a:link {
+	color: black;
+}
+
+.workstitle a:visited {
+	color:black;
+}
+
+.workstitle a:hover {
+	text-decoration: underline;
+}
+
 .worksimage {
 	flex: 25%;
 	padding: 75px 15px 75px 75px;
@@ -267,7 +279,7 @@ nav li a:hover {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	background-color: #fff;
+	background-color: #eee;
 	padding-bottom: 5%;
 }
 
@@ -529,10 +541,8 @@ nav a:hover {
 .expimage {
 	padding: 0 25px 0 25px;
 }
-	
-}
 
-* {
+/* {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
